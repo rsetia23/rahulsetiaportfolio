@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+import RahulCanvas from "./canvas/Rahul"; // NO curly braces
 import { Typewriter } from 'react-simple-typewriter';
 
 
@@ -38,7 +38,7 @@ const Hero = () => {
 
       </div>
 
-      {/* <ComputersCanvas /> */}
+      {/* <RahulCanvas /> */}
       
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
