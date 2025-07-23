@@ -48,22 +48,22 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Software Developer",
-    icon: web,
-  },
-  {
-    title: "Frontend Focus",
-    icon: mobile,
-  },
-  {
-    title: "Problem Solver",
-    icon: backend,
-  },
-  {
-    title: "Team Player",
-    icon: creator,
-  },
+  // {
+  //   title: "Software Developer",
+  //   icon: web,
+  // },
+  // {
+  //   title: "Frontend Focus",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "Problem Solver",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Team Player",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -225,13 +225,13 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/rsetia23/medcs-lab",
-    website_link: "https://medcs-lab.vercel.app/"
+    source_code_link: "https://github.com/rsetia23/medcs-lab-nu",
+    website_link: "https://medcs-lab-nu.vercel.app/"
   },
   {
     name: "Train Tracker",
