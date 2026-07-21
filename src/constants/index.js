@@ -149,7 +149,7 @@ const experiences = [
     company_name: "Northeastern",
     icon: nu,
     iconBg: "#383E56",
-    date: "July - December 2025",
+    date: "July 2025 - April 2026",
     points: [
       "Assist with data integrations, and troubleshooting",
       "Assist with reporting from departmental systems",
