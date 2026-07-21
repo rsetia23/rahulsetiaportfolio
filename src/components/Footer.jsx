@@ -59,14 +59,13 @@ const Footer = () => {
 
           {/* Resume */}
           <a
-            href="/Rahul_Setia_Resume.pdf"
+            href="/Rahul-Setia-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
           >
             Resume
           </a>
-
         </div>
       </div>
     </footer>

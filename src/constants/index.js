@@ -8,28 +8,27 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
-  nu, 
+  nu,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
   medcs,
   homefunding,
   rex,
-  racket,
-  lambda,
-  java
+  java,
+  capgemini,
+  python,
+  mysql,
+  expressjs,
+  aws,
+  vscode,
 } from "../assets";
 
 export const navLinks = [
@@ -67,6 +66,27 @@ const services = [
 ];
 
 const technologies = [
+  // Languages
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "SQL",
+    icon: mysql,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -75,65 +95,55 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
+  // Frameworks
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Express JS",
+    icon: expressjs,
   },
+
+  // Developer Tools
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
-    name: "racket",
-    icon: racket
-  }, 
-  // {
-  //   name: "AWS Lambda",
-  //   icon: lambda
-  // },
-  // {
-  //   name: "Java",
-  //   icon: java
-  // },
+    name: "VS Code",
+    icon: vscode,
+  },
 ];
 
 const experiences = [
+  {
+    title: "DCX FED — Junior Web & Mobile Developer Intern",
+    company_name: "Capgemini",
+    icon: capgemini,
+    iconBg: "#E6DEDD",
+    date: "June - July 2026",
+    points: [
+      "Built a customer-facing kiosk application using React Native for DCX, delivering a responsive interface",
+      "Integrated REST APIs to connect the kiosk front-end with backend services and data sources",
+      "Developed AI agent-driven workflows to support optimization efforts",
+      "Automated key decision-making steps and cross-process coordination tasks",
+      "Gained hands-on exposure to enterprise-scale software delivery practices",
+    ],
+  },
   {
     title: "Systems Support Associate Co-op",
     company_name: "Northeastern",
@@ -144,7 +154,7 @@ const experiences = [
       "Assist with data integrations, and troubleshooting",
       "Assist with reporting from departmental systems",
       "Maintain departmental technology inventory",
-      "Respond to emails, and provide in-person support"
+      "Respond to emails, and provide in-person support",
     ],
   },
   {
@@ -231,7 +241,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/rsetia23/medcs-lab-nu",
-    website_link: "https://medcs-lab-nu.vercel.app/"
+    website_link: "https://medcs-lab-nu.vercel.app/",
   },
   {
     name: "Train Tracker",
@@ -249,7 +259,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/rsetia23/train-tracker.git",
-    website_link: "https://train-tracker-eight.vercel.app/"
+    website_link: "https://train-tracker-eight.vercel.app/",
   },
   {
     name: "Recipe Finder",
@@ -271,7 +281,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/rsetia23/recipe-finder.git",
-    website_link: "https://recipe-finder-amber-six.vercel.app/"
+    website_link: "https://recipe-finder-amber-six.vercel.app/",
   },
 ];
 
