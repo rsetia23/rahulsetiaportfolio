@@ -226,6 +226,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Split — Receipt Splitter",
+    description:
+      'I built Split to end the group-dinner math argument: you photograph the receipt, tap who shared what, and it works out exactly what each person owes. A Gemini vision call reads the items and prices off the photo, and you can assign them in plain English — "Arjun and Smyan shared the seafood, we all had dessert" — instead of tapping through a list. Tax and tip are divided in proportion to what each person actually ordered rather than split evenly, and the per-person cents are rounded by largest remainder so the shares always add up to the printed bill. When you are done it renders the summary to a canvas as a clean image you can drop straight into the group chat. No framework, no dependencies in the browser, and the split math keeps working offline.',
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gemini",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/rsetia23/split-receipt",
+    website_link: "https://split.rahulsetia.me/",
+  },
+  {
     name: "MedCS Lab Website",
     description:
       "I designed and built the official website for the MedCS Lab at Northeastern, a research group focused on the intersection of medicine and computer science. The site highlights our mission, showcases our team, and provides an engaging way for others to learn about our work. It features smooth scrolling, animated sections, and a clean, modern layout to reflect the professionalism and innovation of the lab.",
