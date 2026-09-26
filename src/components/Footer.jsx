@@ -59,7 +59,7 @@ const Footer = () => {
 
           {/* Resume */}
           <a
-            href="/Rahul-Setia-Resume.pdf"
+            href="https://drive.google.com/file/d/1O5v421yYlW-C3ETxzgrfJp3R3A5lTEr2/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
