@@ -75,6 +75,18 @@
       ],
       "source_code_link": "https://github.com/rsetia23/recipe-finder.git",
       "website_link": "https://recipe-finder-amber-six.vercel.app/"
+    },
+    {
+      "name": "Overlap - Find time to meet with friends",
+      "description": "Everyone inputs their calendars into the tool, and it generates times when everyone is free.",
+      "tags": [
+        {
+          "name": "typescript",
+          "color": "orange-text-gradient"
+        }
+      ],
+      "source_code_link": "https://github.com/rsetia23/overlap",
+      "website_link": "https://overlap-nu-navy.vercel.app/"
     }
   ]
 }
