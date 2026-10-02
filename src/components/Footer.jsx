@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* Resume */}
           <a
-            href={site.resume}
+            href={site.resume.startsWith("/") ? "/Rahul-Setia-Resume.pdf" : site.resume}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
