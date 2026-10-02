@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaLinkedin, FaGithub, FaRegCopy } from "react-icons/fa";
 import { MdCheck } from "react-icons/md";
+import site from "../content/site.json";
 
 const Footer = () => {
   const [copied, setCopied] = useState(false);
@@ -59,7 +60,7 @@ const Footer = () => {
 
           {/* Resume */}
           <a
-            href="https://drive.google.com/file/d/1O5v421yYlW-C3ETxzgrfJp3R3A5lTEr2/view?usp=sharing"
+            href={site.resume}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"

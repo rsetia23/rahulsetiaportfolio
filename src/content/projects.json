@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Split — Receipt Splitter",
-      "description": "I built Split to end the group-dinner math argument: you photograph the receipt, tap who shared what, and it works out exactly what each person owes. A Gemini vision call reads the items and prices off the photo, and you can assign them in plain English — \"Arjun and Smyan shared the seafood, we all had dessert\" — instead of tapping through a list. Tax and tip are divided in proportion to what each person actually ordered rather than split evenly, and the per-person cents are rounded by largest remainder so the shares always add up to the printed bill. When you are done it renders the summary to a canvas as a clean image you can drop straight into the group chat. No framework, no dependencies in the browser, and the split math keeps working offline.",
+      "description": "I built Split to end the group-dinner math argument: photograph the receipt, tap who shared what, and it works out what each person owes. Gemini vision reads the items off the photo, and you can assign them in plain English. Tax and tip are split by what each person ordered, and the result exports as a shareable image.",
       "image": "/images/split.png",
       "tags": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "name": "MedCS Lab Website",
-      "description": "I designed and built the official website for the MedCS Lab at Northeastern, a research group focused on the intersection of medicine and computer science. The site highlights our mission, showcases our team, and provides an engaging way for others to learn about our work. It features smooth scrolling, animated sections, and a clean, modern layout to reflect the professionalism and innovation of the lab.",
+      "description": "I designed and built the official website for the MedCS Lab at Northeastern, a research group working at the intersection of medicine and computer science. The site highlights the lab’s mission and team, with smooth scrolling, animated sections, and a clean, modern layout that reflects the lab’s professionalism.",
       "image": "/images/projects/carrent.png",
       "tags": [
         {
@@ -78,7 +78,7 @@
     },
     {
       "name": "Overlap - Find time to meet with friends",
-      "description": "Everyone inputs their calendars into the tool, and it generates times when everyone is free.",
+      "description": "Overlap finds a time when the whole group is free. Each friend joins a shared group link and adds their calendar feed (Google share links work too), and a heatmap shades every slot by how many people are available. Private calendar URLs are encrypted with AES-256-GCM and only ever read on the server.",
       "tags": [
         {
           "name": "typescript",
@@ -87,6 +87,22 @@
       ],
       "source_code_link": "https://github.com/rsetia23/overlap",
       "website_link": "https://overlap-nu-navy.vercel.app/"
+    },
+    {
+      "name": "Chess Record — Weekly W/L Tracker",
+      "description": "Chess Record pulls your games from the chess.com API and shows your wins, losses, and draws over the past seven days. Select any day to see that day’s record, filter by bullet, blitz, or rapid to track rating changes, and export a shareable summary image. It’s a single HTML file with no dependencies.",
+      "tags": [
+        {
+          "name": "javascript",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "rest-api",
+          "color": "green-text-gradient"
+        }
+      ],
+      "source_code_link": "https://github.com/rsetia23/chess-w-l",
+      "website_link": "https://chess.rahulsetia.me/"
     }
   ]
 }
