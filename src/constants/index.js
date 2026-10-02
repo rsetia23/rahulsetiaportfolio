@@ -11,25 +11,17 @@ import {
   nodejs,
   git,
   docker,
-  meta,
-  starbucks,
-  nu,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  medcs,
-  homefunding,
-  rex,
   java,
-  capgemini,
   python,
   mysql,
   expressjs,
   aws,
   vscode,
 } from "../assets";
+
+// Experience and projects are edited via Pages CMS (see .pages.yml)
+import experiencesData from "../content/experiences.json";
+import projectsData from "../content/projects.json";
 
 export const navLinks = [
   {
@@ -129,73 +121,7 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "DCX FED — Junior Web & Mobile Developer Intern",
-    company_name: "Capgemini",
-    icon: capgemini,
-    iconBg: "#E6DEDD",
-    date: "June - July 2026",
-    points: [
-      "Built a customer-facing kiosk application using React Native for DCX, delivering a responsive interface",
-      "Integrated REST APIs to connect the kiosk front-end with backend services and data sources",
-      "Developed AI agent-driven workflows to support optimization efforts",
-      "Automated key decision-making steps and cross-process coordination tasks",
-      "Gained hands-on exposure to enterprise-scale software delivery practices",
-    ],
-  },
-  {
-    title: "Systems Support Associate Co-op",
-    company_name: "Northeastern",
-    icon: nu,
-    iconBg: "#383E56",
-    date: "July 2025 - April 2026",
-    points: [
-      "Assist with data integrations, and troubleshooting",
-      "Assist with reporting from departmental systems",
-      "Maintain departmental technology inventory",
-      "Respond to emails, and provide in-person support",
-    ],
-  },
-  {
-    title: "Website Developer",
-    company_name: "MedCS Lab",
-    icon: medcs,
-    iconBg: "#E6DEDD",
-    date: "May 2025 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Operations Assistant",
-    company_name: "Home Funding LLC",
-    icon: homefunding,
-    iconBg: "#383E56",
-    date: "July - August 2024",
-    points: [
-      "Managed 100+ confidential mortgage client records, adhering to strong data security principles",
-      "Assisted in processing loan applications, gaining insight into underwriting and compliance tasks",
-      "Optimized manual credit review and underwriting processes, reducing errors and increasing efficiency",
-      "Managed a six-figure stock portfolio, tracking profitability metrics to generate alpha returns",
-    ],
-  },
-  {
-    title: "Shift Lead",
-    company_name: "The Rex",
-    icon: rex,
-    iconBg: "#E6DEDD",
-    date: "July - November 2022",
-    points: [
-      "Oversaw front-of-house operations, serving 100+ customers daily and maintaining a 95% satisfaction rate",
-      "Handled customer interactions, resolving issues and ensuring a positive experience",
-      "Conducted closing tasks and maintained a clean environment, showcasing strong organizational skills",
-    ],
-  },
-];
+const { experiences } = experiencesData;
 
 const testimonials = [
   {
@@ -224,87 +150,6 @@ const testimonials = [
   },
 ];
 
-const projects = [
-  {
-    name: "Split — Receipt Splitter",
-    description:
-      'I built Split to end the group-dinner math argument: you photograph the receipt, tap who shared what, and it works out exactly what each person owes. A Gemini vision call reads the items and prices off the photo, and you can assign them in plain English — "Arjun and Smyan shared the seafood, we all had dessert" — instead of tapping through a list. Tax and tip are divided in proportion to what each person actually ordered rather than split evenly, and the per-person cents are rounded by largest remainder so the shares always add up to the printed bill. When you are done it renders the summary to a canvas as a clean image you can drop straight into the group chat. No framework, no dependencies in the browser, and the split math keeps working offline.',
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "gemini",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vercel",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/rsetia23/split-receipt",
-    website_link: "https://split.rahulsetia.me/",
-  },
-  {
-    name: "MedCS Lab Website",
-    description:
-      "I designed and built the official website for the MedCS Lab at Northeastern, a research group focused on the intersection of medicine and computer science. The site highlights our mission, showcases our team, and provides an engaging way for others to learn about our work. It features smooth scrolling, animated sections, and a clean, modern layout to reflect the professionalism and innovation of the lab.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/rsetia23/medcs-lab-nu",
-    website_link: "https://medcs-lab-nu.vercel.app/",
-  },
-  {
-    name: "Train Tracker",
-    description:
-      "A modern web app that lets users track real-time Amtrak train progress using scraped data from RailRat. Built with React, Express, and custom CSS, it features a searchable train ID autocomplete, mobile optimization, and a dark mode toggle for better accessibility. Deployed using Vercel (frontend) and Render (backend).",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/rsetia23/train-tracker.git",
-    website_link: "https://train-tracker-eight.vercel.app/",
-  },
-  {
-    name: "Recipe Finder",
-    description:
-      "A modern Recipe Finder web app built with React, Vite, and Tailwind CSS. It allows users to search for recipes using the Spoonacular API, save favorites, and explore detailed cooking instructions. The app features a clean, responsive UI and is deployed on Vercel for fast performance.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rest-api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/rsetia23/recipe-finder.git",
-    website_link: "https://recipe-finder-amber-six.vercel.app/",
-  },
-];
+const { projects } = projectsData;
 
 export { services, technologies, experiences, testimonials, projects };

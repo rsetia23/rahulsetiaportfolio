@@ -1,0 +1,69 @@
+{
+  "experiences": [
+    {
+      "title": "DCX FED — Junior Web & Mobile Developer Intern",
+      "company_name": "Capgemini",
+      "icon": "/images/company/capgemini.png",
+      "iconBg": "#E6DEDD",
+      "date": "June - July 2026",
+      "points": [
+        "Built a customer-facing kiosk application using React Native for DCX, delivering a responsive interface",
+        "Integrated REST APIs to connect the kiosk front-end with backend services and data sources",
+        "Developed AI agent-driven workflows to support optimization efforts",
+        "Automated key decision-making steps and cross-process coordination tasks",
+        "Gained hands-on exposure to enterprise-scale software delivery practices"
+      ]
+    },
+    {
+      "title": "Systems Support Associate Co-op",
+      "company_name": "Northeastern",
+      "icon": "/images/company/nu.png",
+      "iconBg": "#383E56",
+      "date": "July 2025 - April 2026",
+      "points": [
+        "Assist with data integrations, and troubleshooting",
+        "Assist with reporting from departmental systems",
+        "Maintain departmental technology inventory",
+        "Respond to emails, and provide in-person support"
+      ]
+    },
+    {
+      "title": "Website Developer",
+      "company_name": "MedCS Lab",
+      "icon": "/images/company/medcs.jpeg",
+      "iconBg": "#E6DEDD",
+      "date": "May 2025 - Present",
+      "points": [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers."
+      ]
+    },
+    {
+      "title": "Operations Assistant",
+      "company_name": "Home Funding LLC",
+      "icon": "/images/company/homefunding.png",
+      "iconBg": "#383E56",
+      "date": "July - August 2024",
+      "points": [
+        "Managed 100+ confidential mortgage client records, adhering to strong data security principles",
+        "Assisted in processing loan applications, gaining insight into underwriting and compliance tasks",
+        "Optimized manual credit review and underwriting processes, reducing errors and increasing efficiency",
+        "Managed a six-figure stock portfolio, tracking profitability metrics to generate alpha returns"
+      ]
+    },
+    {
+      "title": "Shift Lead",
+      "company_name": "The Rex",
+      "icon": "/images/company/rex.jpeg",
+      "iconBg": "#E6DEDD",
+      "date": "July - November 2022",
+      "points": [
+        "Oversaw front-of-house operations, serving 100+ customers daily and maintaining a 95% satisfaction rate",
+        "Handled customer interactions, resolving issues and ensuring a positive experience",
+        "Conducted closing tasks and maintained a clean environment, showcasing strong organizational skills"
+      ]
+    }
+  ]
+}

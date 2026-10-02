@@ -1,0 +1,53 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: experiences
+    label: Experience
+    type: file
+    path: src/content/experiences.json
+    format: json
+    fields:
+      - name: experiences
+        label: Jobs (top = newest)
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Role, type: string, required: true }
+          - { name: company_name, label: Company, type: string, required: true }
+          - { name: icon, label: Company logo, type: image }
+          - name: iconBg
+            label: Logo background color
+            type: string
+            description: Hex color, e.g. #E6DEDD or #383E56
+          - { name: date, label: Dates, type: string, description: "e.g. June - July 2026" }
+          - { name: points, label: Bullet points, type: string, list: true }
+
+  - name: projects
+    label: Projects
+    type: file
+    path: src/content/projects.json
+    format: json
+    fields:
+      - name: projects
+        label: Projects (top = first)
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string, required: true }
+          - { name: description, label: Description, type: text }
+          - { name: image, label: Screenshot, type: image }
+          - name: tags
+            label: Tags
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Tag, type: string }
+              - name: color
+                label: Color
+                type: select
+                options:
+                  values: [blue-text-gradient, green-text-gradient, pink-text-gradient, orange-text-gradient]
+          - { name: source_code_link, label: GitHub URL, type: string }
+          - { name: website_link, label: Live site URL, type: string }

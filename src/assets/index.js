@@ -22,20 +22,6 @@ import expressjs from "./tech/express.png";
 import aws from "./tech/amazonaws.png";
 import vscode from "./tech/vscode.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import nu from "./company/nu.png"; 
-import medcs from "./company/medcs.jpeg";
-import homefunding from "./company/homefunding.png";
-import rex from "./company/rex.jpeg";
-import tesla from "./company/tesla.png";
-import capgemini from "./company/capgemini.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 export {
   logo,
   backend,
@@ -60,17 +46,4 @@ export {
   expressjs,
   aws,
   vscode,
-
-  meta,
-  shopify,
-  starbucks,
-  nu,
-  medcs,
-  homefunding,
-  rex,
-  tesla,
-  capgemini,
-  carrent,
-  jobit,
-  tripguide,
 };
