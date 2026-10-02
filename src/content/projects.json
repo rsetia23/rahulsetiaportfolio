@@ -32,6 +32,10 @@
         },
         {
           "name": "tailwind",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "sanity",
           "color": "pink-text-gradient"
         }
       ],
@@ -48,7 +52,11 @@
           "color": "blue-text-gradient"
         },
         {
-          "name": "css",
+          "name": "typescript",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "express",
           "color": "pink-text-gradient"
         }
       ],
@@ -61,15 +69,15 @@
       "image": "/images/projects/tripguide.png",
       "tags": [
         {
-          "name": "nextjs",
+          "name": "react",
           "color": "blue-text-gradient"
         },
         {
-          "name": "rest-api",
+          "name": "tailwind",
           "color": "green-text-gradient"
         },
         {
-          "name": "css",
+          "name": "rest-api",
           "color": "pink-text-gradient"
         }
       ],
@@ -81,8 +89,16 @@
       "description": "Overlap finds a time when the whole group is free. Each friend joins a shared group link and adds their calendar feed (Google share links work too), and a heatmap shades every slot by how many people are available. Private calendar URLs are encrypted with AES-256-GCM and only ever read on the server.",
       "tags": [
         {
+          "name": "nextjs",
+          "color": "blue-text-gradient"
+        },
+        {
           "name": "typescript",
-          "color": "orange-text-gradient"
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "redis",
+          "color": "pink-text-gradient"
         }
       ],
       "source_code_link": "https://github.com/rsetia23/overlap",
